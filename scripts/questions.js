@@ -6,6 +6,7 @@ const generalUNCQuestions = [
     'Used Google Maps to find your classes',
     'Mispronounced Dey Hall',
     'Started as Pre-Med',
+    'Used a fake ID on Franklin',
     'Switched out of Pre-Med',
     'Did the 2 AM Davis to UL walk of shame',
     'Ate Wendys for lunch and dinner',
@@ -13,11 +14,18 @@ const generalUNCQuestions = [
     'Have more than 10 UNC shirts',
     'Stole a brick outside Rams',
     'Went streaking on LDOC',
+    'Lived through a water crisis',
     'Had someone from NC State call you a rival',
-    'Used "Tar Heel Born, Tar Heel Bred.." in an Instagram Caption',
+    'Used "Tar Heel Born, Tar Heel Bred..." in an Instagram Caption',
     'Pulled an all nighter at the UL',
     'Got a picture with a basketball player',
     'Never won the Basketball Lottery',
     'Call it Chase not Rams',
-    'Slept with an athlete'
+    'Slept with an athlete',
+    'Posted a meme on the Facebook group',
+    'Committed a housing violation',
+    'Joined a frat or sorority',
+    'Roasted someone on Piazza',
+    'Snuck into a building after hours',
+    'Fell on the P2P'
 ];
