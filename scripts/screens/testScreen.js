@@ -22,14 +22,16 @@ function createSubmitButton(category) {
 }
 
 function createCheckBoxes(category) {
-    const checkboxesDiv = $('<div></div>');
+    const checkboxesDiv = $('<div></div>'); // add numbers
+    let i = 1;
     getQuestions(category).forEach(question => {
         checkboxesDiv.append(`
             <div class='questionBox'>
                 <input type='checkbox' id='${question}'>
-                <label for='${question}'>${question}</label>
+                <label for='${question}'>${i}: ${question}</label>
             </div>
         `);
+    i++;
     });
     return checkboxesDiv;
 }
