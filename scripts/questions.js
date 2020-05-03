@@ -22,7 +22,7 @@ const generalUNCQuestions = [
     'Pulled an all nighter at the UL',
     'Woke up ten minutes before class and still made it on time',
     'Got a picture with a basketball player',
-    'Never won the Basketball Lottery',
+    'Never won the basketball lottery',
     'Call it Chase not Rams',
     'Slept with an athlete',
     'Posted a meme on the Facebook group',
@@ -48,7 +48,7 @@ const generalUNCQuestions = [
     '"Does anyone have an extra scantron/bluebook?"',
     'Roasted a professor on a class eval',
     'Snuck into a party with a fake wristband',
-    '"Can you take my survey for class? It\'s only 5 minutes!"',
+    'Asked people to take your survey for class',
     'Joined an intramural team',
     'Went to class under the influence',
     'Went to an event only for free stuff',
@@ -66,5 +66,6 @@ const generalUNCQuestions = [
     'Matched with a classmate on Tinder (or whatever dating app you use)',
     'Matched with a TA on Tinder',
     'Considered buying a Chegg account',
-    'Bought a Chegg account'
+    'Bought a Chegg account',
+    'Left a class to get food'
 ];
