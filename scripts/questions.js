@@ -27,5 +27,6 @@ const generalUNCQuestions = [
     'Joined a frat or sorority',
     'Roasted someone on Piazza',
     'Snuck into a building after hours',
-    'Fell on the P2P'
+    'Fell on the P2P',
+    'Lived in HoJo'
 ];
