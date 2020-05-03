@@ -84,6 +84,7 @@ function createScoreScreen(score, category) {
             createCategoryScreen();
         });
     });
+    bodyContainer.append(returnButton);
 
     const shareButton = $('<button>Share with your friends!</button>')
     shareButton.click(function () {
@@ -106,5 +107,5 @@ function createScoreScreen(score, category) {
 function changeScreen(div) {
     rootContainer.empty();
     rootContainer.append(div);
-    rootContainer.fadeOut(1).fadeIn(500);
+    rootContainer.fadeOut(0).fadeIn(500);
 }
