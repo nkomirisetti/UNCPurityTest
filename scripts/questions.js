@@ -1,0 +1,23 @@
+const generalUNCQuestions = [
+    'TestBed1',
+    'TestBed2',
+    'TestBed3',
+    'TestBed4',
+    'TestBed5',
+    'TestBed6',
+    'TestBed7',
+    'TestBed8',
+    'TestBed9',
+    'TestBed10',
+    'TestBed11',
+    'TestBed12',
+    'TestBed13',
+    'TestBed14',
+    'TestBed15',
+    'TestBed16',
+    'TestBed17',
+    'TestBed18',
+    'TestBed19',
+    'TestBed20',
+    'TestBed21'
+];
