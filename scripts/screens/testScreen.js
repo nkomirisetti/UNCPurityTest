@@ -28,7 +28,7 @@ function createCheckBoxes(category) {
         checkboxesDiv.append(`
             <div class='questionBox'>
                 <input type='checkbox' id='${question}'>
-                <label for='${question}'>${i}: ${question}</label>
+                <label for='${question}'>${i}. ${question}</label>
             </div>
         `);
     i++;
