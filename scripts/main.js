@@ -94,15 +94,13 @@ function createScoreScreen(score, category) {
         }
 
         try {
-            await navigator.share(shareData)
+            navigator.share(shareData)
         } catch (err) {
             // TODO copy to clipboard
         }
     });
-
-    rootContainer.append(bodyContainer);
-    changeScreen();
-    console.log(score);
+    bodyContainer.append(shareButton);
+    changeScreen(bodyContainer);
 }
 
 function changeScreen(div) {
