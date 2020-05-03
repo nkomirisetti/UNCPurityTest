@@ -1,7 +1,7 @@
 function openCategoryScreen() {
-    let bodyContainer = $('<div class=\'bodyContainer\'></div>');
-
+    const bodyContainer = $('<div class=\'bodyContainer\'></div>');
     bodyContainer.append('<div class=\'pageTitle\'>UNC Purity Test</div>');
+
     bodyContainer.append(createCategoriesComponent());
     bodyContainer.append(createFooter());
 
@@ -9,7 +9,7 @@ function openCategoryScreen() {
 }
 
 function createCategoriesComponent() {
-    let div = $('<div></div>');
+    const div = $('<div class=\'categoriesList\'></div>');
 
     CATEGORIES.forEach(category => {
         let button = $('<button>' + category + '</button>');

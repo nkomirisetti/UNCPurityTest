@@ -4,7 +4,6 @@ function openTestScreen(category) {
     bodyContainer.append('<div class=\'pageTitle\'>' + category + '</div>');
     bodyContainer.append(createCheckBoxes(category));
     bodyContainer.append(createSubmitButton(category));
-    bodyContainer.append(createFooter());
 
     changeScreen(bodyContainer);
 }
@@ -22,14 +21,14 @@ function createSubmitButton(category) {
 }
 
 function createCheckBoxes(category) {
-    const checkboxesDiv = $('<div></div>'); // add numbers
+    const checkboxesDiv = $('<ul></ul>'); // add numbers
     let i = 1;
     getQuestions(category).forEach(question => {
         checkboxesDiv.append(`
-            <div class='questionBox'>
+            <li class='questionBox'>
                 <input type='checkbox' id='${question}'>
                 <label for='${question}'>${i}. ${question}</label>
-            </div>
+            </li>
         `);
     i++;
     });
