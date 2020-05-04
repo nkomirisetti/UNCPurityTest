@@ -12,14 +12,14 @@ function theYams() {
 		};
 
 	function createSVGEl(def) {
-		var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+		var svg = document.createElementNS("https://www.w3.org/2000/svg", "svg");
 		if (def) {
 			svg.setAttributeNS(null, 'viewBox', def.viewBox);
 			svg.setAttributeNS(null, 'preserveAspectRatio', def.preserveAspectRatio);
 		} else {
 			svg.setAttributeNS(null, 'viewBox', '0 0 100 100');
 		}
-		svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+		svg.setAttribute('xmlns', 'https://www.w3.org/2000/svg');
 		return svg;
 	}
 
@@ -64,10 +64,10 @@ function theYams() {
 				break;
 		};
 
-		paths.push(document.createElementNS('http://www.w3.org/2000/svg', 'path'));
+		paths.push(document.createElementNS('https://www.w3.org/2000/svg', 'path'));
 
 		if (type === 'cross' || type === 'list') {
-			paths.push(document.createElementNS('http://www.w3.org/2000/svg', 'path'));
+			paths.push(document.createElementNS('https://www.w3.org/2000/svg', 'path'));
 		}
 
 		for (var i = 0, len = paths.length; i < len; ++i) {
