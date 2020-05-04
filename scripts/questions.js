@@ -78,6 +78,8 @@ const generalUNCQuestions = ['Used the escalators as a shortcut in the Student S
     'Said "GDTBATH" sarcastically when it wasn\'t',
     'Found a secret study spot',
     'Got screwed over by registration',
+    'Begged a professor to let you into a class',
+    'Asking your friends if they have old tests for a class',
     'Cried in the bathroom at the library',
     'Smoked in the woods on south campus',
     'Hid "contraband" during a room inspection',
