@@ -49,7 +49,9 @@ const generalUNCQuestions = [
     'Roasted a professor on a class eval',
     'Snuck into a party with a fake wristband',
     'Asked people to take your survey for class',
+    'Actually like I ♥ N.Y. Pizza',
     'Joined an intramural team',
+    'Got lost in Phillips',
     'Went to class under the influence',
     'Went to an event only for free stuff',
     'Went to Waffle House before midnight',
@@ -60,6 +62,7 @@ const generalUNCQuestions = [
     'Got sent to honor court',
     'Said "GDTBATH" sarcastically when it wasn\'t',
     'Found a secret study spot',
+    'Cried in the bathroom at the library',
     'Smoked in the woods on south campus',
     'Hid "contraband" during a room inspection',
     'Convinced your friends to go on a Cookout run',
@@ -69,5 +72,10 @@ const generalUNCQuestions = [
     'Bought a Chegg account',
     'Left a class to get food',
     'Stole something from a frat house',
-    'Only got into one class during registration'
+    'Only got into one class during registration',
+    'Stayed in the dining hall between meals to save a swipe',
+    'Went to campus health and they didn\'t know what was wrong with you',
+    'Got norovirus, strep throat, or mono',
+    'Done a pickleback shot at Goodfellows',
+    'Went to 5$ blue cups and pint night in the same week'
 ];

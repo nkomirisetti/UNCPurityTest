@@ -78,7 +78,7 @@ function createFeedbackContainer() {
 }
 
 function createScoreDiv(score) {
-    return `
+    const div = $(`
     <div class="ml8">
         <span class="letters-container">
             <span class="letters letters-left">${score}</span>
@@ -86,7 +86,10 @@ function createScoreDiv(score) {
         </span>
         <span class="circle circle-dark"></span>
         <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
-  </div>`
+    </div>`);
+    div.click(animateScore());
+    // TODO fix click method
+    return div;
 }
 
 function animateScore() {
