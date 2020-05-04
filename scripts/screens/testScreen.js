@@ -4,8 +4,8 @@ function openTestScreen(category) {
     bodyContainer.append('<div class=\'pageTitle\'>' + category + '</div>');
     bodyContainer.append(createCheckBoxes(category));
     bodyContainer.append(createSubmitButton(category));
-
     changeScreen(bodyContainer);
+    theYams();
 }
 
 function createSubmitButton(category) {
@@ -21,16 +21,20 @@ function createSubmitButton(category) {
 }
 
 function createCheckBoxes(category) {
-    const checkboxesDiv = $('<ul></ul>'); // add numbers
+    const checkboxesDiv = $('<form class=\'ac-custom ac-checkbox ac-boxfill test\'></form>'); // add numbers
+    const ul = $('<ul></ul>')
     let i = 1;
     getQuestions(category).forEach(question => {
-        checkboxesDiv.append(`
+        ul.append(`
             <li class='questionBox'>
-                <input type='checkbox' id='${question}'>
-                <label for='${question}'>${i}. ${question}</label>
+                <input type='checkbox' id='${question}'>                
+                    <label for='${question}'>${i}. ${question}</label>
+                </input>
             </li>
+            <hr>
         `);
     i++;
     });
+    checkboxesDiv.append(ul);
     return checkboxesDiv;
 }
