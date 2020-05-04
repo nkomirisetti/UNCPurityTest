@@ -23,6 +23,13 @@ function createCategoriesComponent() {
         div.append(button);
     });
 
+    const button = $('<button>Shoutouts</button>');
+    button.click(function(){
+        rootContainer.fadeOut(500, function () {
+            openShoutoutScreen();
+        });
+    })
+    div.append(button);
     return div;
 }
 

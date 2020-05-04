@@ -3,8 +3,8 @@ function openScoreScreen(score, category) {
 
     bodyContainer.append(createResultsContainer(category, score));
     bodyContainer.append(createReturnButton());
-    bodyContainer.append(createShareButton());
-    bodyContainer.append(createFooter());
+    bodyContainer.append(createShareButton(category, score));
+    // bodyContainer.append(createFooter());
     bodyContainer.append(createFeedbackContainer());
     changeScreen(bodyContainer);
     animateScore()
@@ -31,13 +31,13 @@ function createReturnButton() {
     return button;
 }
 
-function createShareButton() {
+function createShareButton(category, score) {
     const button = $('<button>Share with your friends!</button>');
 
     button.click(function () {
         const shareData = {
             title: 'UNC Purity Test',
-            text: 'How good of a Tar Heel are ya? Try this purity test!',
+            text: 'How good of a Tar Heel are ya? I got a ' + score + ' on ' + category + '. Try it out!',
             url: 'https://komirisetti.com/UNCPurityTest',
         }
 

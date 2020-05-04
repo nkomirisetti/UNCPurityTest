@@ -60,7 +60,7 @@ button {
     display: grid;
 }
 
-.scoreScreen > button {
+.scoreScreen>button {
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -69,22 +69,24 @@ button {
     display: flex;
 }
 
-.feedbackDiv > textarea {
+.feedbackDiv>textarea {
     margin: 1vh;
     border: none;
     border-bottom: 3px solid whitesmoke;
     font-size: 4vmin;
     font-family: 'Jost', sans-serif;
     resize: none;
-    width: -moz-available;          /* WebKit-based browsers will ignore this. */
-    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: -moz-available;
+    /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;
+    /* Mozilla-based browsers will ignore this. */
     height: 20vh;
     margin-left: 0;
     border-radius: 8px;
     padding: 1vmin;
 }
 
-.feedbackDiv > button {
+.feedbackDiv>button {
     margin-top: 1vh;
     height: 20vh;
 }
@@ -94,5 +96,25 @@ button {
     font-family: 'Open Sans', sans-serif;
     color: #13294B;
     font-size: 10vmin;
+}
+
+.categoriesList {
+    display: grid;
+}
+
+.categoriesList>button {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.shoutoutsContainer {
+    list-style: none; 
+}
+
+.social {
+    font-family: 'Jost', sans-serif;
+    font-size: 10vmin;
+    text-align: left;
+    color: #13294B;
 
 }

@@ -1,5 +1,5 @@
 function createFooter() {
-    return $('<div class=\'footerContainer\'>Made with 💙 by Nikhil Komirisetti</div>');
+    return $('<div class=\'footerContainer\'>Made with 💙 by <a href="https://komirisetti.com">Nikhil Komirisetti</a></div>');
 }
 
 function changeScreen(div) {
