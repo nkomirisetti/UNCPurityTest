@@ -103,6 +103,5 @@ const generalUNCQuestions = ['Used the escalators as a shortcut in the Student S
 const toBeAnnounced = ['Do you have an idea for another category?',
     'Or another feature that would be cool?',
     'Let me know on the next screen and I\'ll try and add it!',
-    'If you submit something I\'d love to give you credit if you want it',
-    'So include your @ and I can add you to the shoutouts page'
+    'It really could be anything honestly'
 ];
