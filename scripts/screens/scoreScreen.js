@@ -38,7 +38,7 @@ function createShareButton(category, score) {
         const shareData = {
             title: 'UNC Purity Test',
             text: 'How good of a Tar Heel are ya? I got a ' + score + ' on ' + category + '. Try it out!',
-            url: 'https://komirisetti.com/UNCPurityTest',
+            url: 'https://uncpuritytest.com',
         }
 
         try {
