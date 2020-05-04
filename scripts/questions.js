@@ -43,7 +43,7 @@ const generalUNCQuestions = [
     'Sat in the last row of a classroom on purpose',
     'Got blacklisted on Handshake',
     'Set off a fire alarm in a dorm',
-    'Snuck into a dining hall',
+    'Snuck into a dining hall without swiping in',
     'Got kicked out of a study room',
     '"Does anyone have an extra scantron/bluebook?"',
     'Roasted a professor on a class eval',
