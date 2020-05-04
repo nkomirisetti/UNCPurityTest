@@ -68,7 +68,7 @@ const generalUNCQuestions = ['Used the escalators as a shortcut in the Student S
     'Almost got hit by a bus/P2P',
     'Went to an event only for free stuff',
     'Went to Waffle House before midnight',
-    'Went to a Lower Frat Court Concert',
+    'Went to a Little Frat Court Concert',
     'Drank from the Old Well on FODC',
     'Bought basketball tickets',
     'Sold basketball tickets',
