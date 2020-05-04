@@ -34,7 +34,6 @@
     top: auto;
     left: -0.06em;
     display: inline-block;
-
 }
 
 .ml8 .circle {
@@ -45,7 +44,6 @@
     top: 0;
     bottom: 0;
     display: inline-block;
-
 }
 
 .ml8 .circle-dark {
@@ -55,7 +53,6 @@
     border-radius: 3em;
     z-index: 1;
     display: inline-block;
-
 }
 
 .ml8 .circle-dark-dashed {
@@ -65,5 +62,4 @@
     width: 2.3em;
     height: 2.3em;
     display: inline-block;
-
 }
