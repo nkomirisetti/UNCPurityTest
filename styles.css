@@ -17,7 +17,8 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
-    margin: 1vmin;
+    margin: 2vmin;
+    padding: 2vmin;
 }
 
 hr {
@@ -55,8 +56,43 @@ button {
     font-size: 2.5vmin;
 }
 
-.scoreScreen {}
+.scoreScreen {
+    display: grid;
+}
 
-.feedbackDiv {}
+.scoreScreen > button {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
 
-.feedbackSubmitted {}
+.feedbackDiv {
+    display: flex;
+}
+
+.feedbackDiv > textarea {
+    margin: 1vh;
+    border: none;
+    border-bottom: 3px solid whitesmoke;
+    font-size: 4vmin;
+    font-family: 'Jost', sans-serif;
+    resize: none;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: 10vh;
+    margin-left: 0;
+    border-radius: 8px;
+    padding: 1vmin;
+}
+
+.feedbackDiv > button {
+    margin-top: 1vh;
+    height: 10vh;
+}
+
+.feedbackSubmitted {
+    margin-top: 3vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #13294B;
+    font-size: 10vmin;
+
+}

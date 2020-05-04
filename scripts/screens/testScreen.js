@@ -12,8 +12,11 @@ function createSubmitButton(category) {
     const submitButton = $('<button class=\'submitButton\'>Submit!</button>');
 
     submitButton.click(function () {
+        const scoreTotal = 100 - $('input:checkbox:checked').length;
+        $.post('https://feedback-unc-purity.herokuapp.com/score?score=' + scoreTotal + '&category=' + category);
+
         rootContainer.fadeOut(500, function () {
-            openScoreScreen($('input:checkbox:checked').length, category);
+            openScoreScreen(scoreTotal, category);
         });
     });
 

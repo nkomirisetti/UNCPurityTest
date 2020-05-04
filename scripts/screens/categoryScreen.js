@@ -25,3 +25,17 @@ function createCategoriesComponent() {
 
     return div;
 }
+
+function animateTitle() {
+    var textWrapper = document.querySelector('.pageTitle');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline().add({
+        targets: '.pageTitle .letter',
+        scale: [0, 1],
+        duration: 1500,
+        elasticity: 600,
+        delay: (el, i) => 45 * (i + 1)
+    });
+
+}
