@@ -29,7 +29,7 @@ const generalUNCQuestions = [
     'Committed a housing violation',
     'Missed the Sakai deadline because it was due at "11:55 PM"',
     'Submitted something on Sakai a minute before the deadline',
-    'Joined a frat or sorority',
+    'Rushed a frat or sorority',
     'Roasted someone on Piazza',
     'Snuck into a building after hours',
     'Fell on the P2P',
