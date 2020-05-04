@@ -67,5 +67,6 @@ const generalUNCQuestions = [
     'Matched with a TA on Tinder',
     'Considered buying a Chegg account',
     'Bought a Chegg account',
-    'Left a class to get food'
+    'Left a class to get food',
+    'Stole something from a frat house'
 ];

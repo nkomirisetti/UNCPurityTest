@@ -53,7 +53,7 @@ function createShareButton() {
 
 function createFeedbackContainer() {
     const div = $('<div class=\'feedbackDiv\'></div>');
-    const inputBox = $('<textarea rows="3" placeholder="Ideas for questions or categories? Let me know!"></textarea>');
+    const inputBox = $('<textarea rows="3" placeholder="Ideas for questions or categories? Let me know! If you include your @ I can give you a shout-out on the page"></textarea>');
     const button = $('<button>Send!</button>');
     button.click(function () {
         if ($.trim(inputBox.val()) == '') {
