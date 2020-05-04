@@ -40,7 +40,7 @@ const generalUNCQuestions = [
     'Had Wi-Fi troubles on campus',
     'Consistently skipped a class',
     'Went to a concert at Cats Cradle',
-    'Sat in the last row of a classroom on person',
+    'Sat in the last row of a classroom on purpose',
     'Got blacklisted on Handshake',
     'Set off a fire alarm in a dorm',
     'Snuck into a dining hall',
@@ -68,5 +68,6 @@ const generalUNCQuestions = [
     'Considered buying a Chegg account',
     'Bought a Chegg account',
     'Left a class to get food',
-    'Stole something from a frat house'
+    'Stole something from a frat house',
+    'Only got into one class during registration'
 ];
