@@ -14,7 +14,7 @@ const generalUNCQuestions = ['Used the escalators as a shortcut in the Student S
     'Have more than 10 UNC shirts',
     'Found a textbook PDF online',
     'Stole a brick outside Rams',
-    'Went streaking on LDOC',
+    'Went streaking on the midnight before finals',
     'Lived through a water crisis',
     'Had someone from NC State call you a rival',
     'Used "Tar Heel Born, Tar Heel Bred..." in an Instagram Caption',

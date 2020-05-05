@@ -130,5 +130,5 @@ function animateScore() {
 }
 
 function createCopyPasta(score, category) {
-    return `Do YOU 👉 miss UNC 🐏?  Fear 🙀 no more 🙅‍♀️!  This UNC (Im)Purity 👅 Test 📝 will take you back 💃 to all your favorite 🥰 memories, from blacking out 🤪 at MAW 🍻 to matching with your TA 🤓 on Tinder🔥 Compare scores 📈 with your friends 👯‍♀️ to see who the baddest 😈 tar heel 🦶 is! I got a ${score} on ${category}. Try it out!💯💯`;
+    return `Do YOU 👉 miss UNC 🐏?  Fear 🙀 no more 🙅‍♀️!  This UNC (Im)Purity 👅 Test 📝 will take you back 💃 to all your favorite 🥰 memories, from blacking out 🤪 at MAW 🍻 to matching with your TA 🤓 on Tinder🔥. Compare scores 📈 with your friends 👯‍♀️ to see who the baddest 😈 tar heel 🦶 is! I got a ${score} on ${category}. Try it out!💯💯`;
 }
