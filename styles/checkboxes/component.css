@@ -10,7 +10,6 @@
 	padding: 0 3em;
 	max-width: 900px;
 	margin: 0 auto;
-	-webkit-tap-highlight-color: transparent;
 }
 
 .ac-custom h2 {
@@ -32,6 +31,7 @@
 	margin: 0 auto;
 	padding: 2em 0;
 	position: relative;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .ac-custom label {
@@ -44,6 +44,7 @@
 	cursor: pointer;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .ac-custom input[type="checkbox"],
