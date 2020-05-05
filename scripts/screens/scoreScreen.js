@@ -37,7 +37,7 @@ function createShareButton(category, score) {
     button.click(function () {
         const shareData = {
             title: 'UNC Purity Test',
-            text: 'How good of a Tar Heel are ya? I got a ' + score + ' on ' + category + '. Try it out!',
+            text: 'createCopyPasta(score, category)',
             url: 'https://uncpuritytest.com',
         }
 
@@ -127,4 +127,8 @@ function animateScore() {
         loop: true
     });
 
+}
+
+function createCopyPasta(score, category) {
+    return `Do YOU 👉 miss UNC 🐏?  Fear 🙀 no more 🙅‍♀️!  This UNC (Im)Purity 👅 Test 📝 will take you back 💃 to all your favorite 🥰 memories, from blacking out 🤪 at MAW 🍻 to matching with your TA 🤓 on Tinder🔥 Compare scores 📈 with your friends 👯‍♀️ to see who the baddest 😈 tar heel 🦶 is! I got a ${score} on ${category}. Try it out!💯💯`;
 }
