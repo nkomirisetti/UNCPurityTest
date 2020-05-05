@@ -10,6 +10,7 @@
 	padding: 0 3em;
 	max-width: 900px;
 	margin: 0 auto;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .ac-custom h2 {
@@ -108,7 +109,6 @@
 }
 
 /* Specific input, SVG and path styles */
-
 
 /* Box Fill */
 .ac-boxfill svg path {
