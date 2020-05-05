@@ -37,7 +37,7 @@ function createShareButton(category, score) {
     button.click(function () {
         const shareData = {
             title: 'UNC Purity Test',
-            text: 'createCopyPasta(score, category)',
+            text: createCopyPasta(score, category),
             url: 'https://uncpuritytest.com',
         }
 
