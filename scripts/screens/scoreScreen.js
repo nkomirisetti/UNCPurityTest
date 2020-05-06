@@ -53,7 +53,7 @@ function createShareButton(category, score) {
 
 function createFeedbackContainer() {
     const div = $('<div class=\'feedbackDiv\'></div>');
-    const inputBox = $('<textarea rows="3" placeholder="Ideas for questions or categories?"></textarea>');
+    const inputBox = $('<textarea rows="3" placeholder="Ideas for questions or tests? Let me know!"></textarea>');
     const button = $('<button>Send!</button>');
     button.click(function () {
         if ($.trim(inputBox.val()) == '') {
