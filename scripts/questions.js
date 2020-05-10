@@ -23,7 +23,7 @@ const generalUNCQuestions = ['Used the escalators as a shortcut in the Student S
     'Got a picture with a basketball player',
     'Never won the basketball lottery',
     'Call it Rams and not Chase',
-    'Slept with an athlete',
+    'Randomly assigned group project with an athlete',
     'Posted a meme on the Facebook group',
     'Committed a housing violation',
     'Missed the Sakai deadline because it was due at "11:55 PM"',
