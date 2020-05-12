@@ -66,7 +66,7 @@ function createFeedbackContainer() {
             div.text('Sending...');
             console.log(output);
             $.post('https://feedback-unc-purity.herokuapp.com/feedback?feedback=' + output, function (returnedData) {
-                div.text('Sent! Thanks!');
+                div.text('Sent, thanks!');
             });
         }
     });
